@@ -1,0 +1,38 @@
+h1{
+     color: white;
+     background-color: rgb(29, 197, 85);
+    height: 200px;
+    width: 200px;
+    border-color: rgb(30, 13, 177);
+    border-style: dotted;
+    text-align: center;
+    /* OR   border: 2px solid red; */
+    border-radius: 10px;
+}
+p{
+    height:100px;
+    background-color: aqua;
+    border-style:dotted ;
+    text-align: center;
+    border: 2px;
+    border-color:blue;
+    border-radius: 50px;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(26, 209, 72);
+    border: 2px;
+    border-color: black;
+    border-radius:20px;
+    text-align: center;
+}
+.Div1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(231, 88, 22);
+    border: 2px solid black;
+    border-radius: 50%;
+    
+
+}

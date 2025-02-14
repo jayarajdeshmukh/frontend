@@ -1,0 +1,18 @@
+:root {
+    --primary-brand-color: #000;
+    --common-padding: 0 8vw;
+  }
+header{
+    font-family:"Satoshi",sans-serif;
+}
+.header-top{
+    background-color: var(--primary-brand-color);
+     text-align: center;
+     color: #fff;
+     padding: 2vh;
+}
+.header-top a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  

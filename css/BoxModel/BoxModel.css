@@ -1,0 +1,22 @@
+/* content
+padding
+border
+margin */
+
+.div1{
+    background-color:rebeccapurple;
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+.div2{
+    text-align:center;
+    background-color:red;
+    height: 100px;
+    width: 200px;
+    border-radius: 50%;
+}

@@ -1,0 +1,18 @@
+.box{
+    background-color: yellowgreen;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    top: 0;
+}
+.Container1{
+    background-color: aqua;
+    height: 100vh;
+}
+.Container2{
+    background-color: violet;
+}
+.Container3{
+    background-color:yellow;
+    height: 100vh;
+}

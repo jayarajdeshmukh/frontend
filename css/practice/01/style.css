@@ -1,0 +1,17 @@
+.parent{
+    height: 100vh;
+    text-align: center;
+ }
+ .child1{
+    background-color:orange;
+    height: 33.33%;
+   }
+   .child2{
+    background-color:white;
+    height: 33.33%;
+   }
+   .child3{
+    background-color:green;
+    height: 33.33%;
+   }
+  

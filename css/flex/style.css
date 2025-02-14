@@ -1,0 +1,44 @@
+.parent{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    height: 250px;
+    align-items: center;
+    gap: 80px;
+
+}
+.div1{
+    background-color: red;
+    height: 100px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2{
+    background-color: rgb(47, 16, 161);
+    height: 100px;
+    width: 200px;
+    color: rgba(17, 0, 0, 0.877);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div3{
+    height: 150px;
+    width: 150px;
+    background-color:yellowgreen;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}

@@ -1,0 +1,46 @@
+.div{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+.div1{
+    background-color: red;
+    height: 100px;
+    border: 1px solid black;
+    width: 100px;
+}
+.parent{
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.div2{
+    background-color: black;
+    height: 100px;
+    border: 1px solid rgb(5, 250, 107);
+    width: 100px;
+   
+}
+.parent1{
+    background-color:palevioletred;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.div3, .div4, .div5{
+    background-color:yellow;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.div3{
+    align-self: self-start;
+}
+.div5{
+    align-self: self-end;
+}

@@ -1,0 +1,21 @@
+.parent{
+    background-color:antiquewhite;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.child-1, .child-2{
+     height: 100px;
+     width: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.child-1{
+    background-color: aqua;
+}
+.child-2{
+    background-color: skyblue;
+}

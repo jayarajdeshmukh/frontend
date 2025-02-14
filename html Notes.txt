@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <H1>All html tags</H1>
+    <h1>Hello</h1>
+    <h2>Hello</h2>                           
+    <br>
+        <p>Defines a paragraph.p</p>        
+    <br>
+        <b>Makes text bold.</b>             
+     <br>
+        <i>Makes text italic.</i>             
+    <br>
+        <u>Underlines text.</u>               
+    <br>
+        <br>Line break (no closing tag).       
+    <br>
+        <strong>Defines important text (bold).</strong>    
+    <br>
+        <em>Defines emphasized text (italic).</em>          
+    <br>
+        <a href="https://chatgpt.com/">Visit the link</a>    
+    <br>
+          <!-- <li>List item (used inside both <ul> and <ol>) -->
+        <ul>Unordered list (bulleted list).
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+        <ol>Ordered list (numbered list).
+                <li>First Item</li>
+                <li>Second Item</li>
+        </ol>
+    <br>
+        <!-- <table>Defines a table.</table>
+             <tr>  Table row.            </tr>
+             <td>   Table data (cell).    </td>
+            <th>   Table header (cell, bold and centered by default)  </th>
+            <thead>, <tbody>, <tfoot>= Grouping elements for table header, body, and footer. 
+            <center>   It will center   </center>
+        -->
+                
+            <center>
+                <h2>Table</h2>
+                <table border>
+                    <thead>
+                        <th>Sr.no</th>
+                        <th>Title 2</th>
+                        <th>Title 3</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>02/02/2024</td>
+                            <td>02:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>28/11/2024</td>
+                            <td>11:00 pm</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </center>
+
+            <!-- <form>: Defines a form for user input.
+                 <input>: Defines an input field.
+                 type: Specifies the input type (e.g., text, password, checkbox, etc.).
+                 <label>: Defines a label for an input field.
+                 <button>: Defines a clickable button.
+                 <select>: Defines a dropdown menu.
+                <option>: Defines options in a <select> dropdown.
+             -->
+            <form action="/submit">
+                <label>Name:</label>
+                <input type="text">
+             <br>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age">
+            <br>
+                <button type="submit">Submit</button>
+            </form>
+
+            <!-- <img>: Embeds an image.
+                      src: Attribute for specifying the image source URL.
+                     alt: Provides alternative text for the image.
+                <audio>: Embeds audio content.
+                      controls: Adds playback controls.          </audio>
+                <video>: Embeds video content.
+                      controls: Adds video playback controls.    </video>
+            -->
+              <img src="https://cdn.pixabay.com/photo/2024/03/20/03/06/ai-generated-8644499_640.jpg" alt="robots">  <br>
+              <audio controls>      
+                   <source src="audio.mp3" type="audio/mp3">
+               </audio>                  <br>
+               <video controls>
+                  <source src="video.mp4" type="video/mp4">
+               </video>
+        <br>
+               <!-- <div> = Defines a block-level container (used for structuring content).
+                    <span>: Defines an inline container (used for styling small parts of content).
+                -->
+            <div>
+                <p>This is paragraph <span style="color: red;">span</span></p>
+            </div>
+
+          <style>Defines internal CSS styles.</style>
+
+           <script>Defines JavaScript</script>   
+  
+  </body>
+</html> 

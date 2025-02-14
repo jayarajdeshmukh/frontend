@@ -1,0 +1,70 @@
+              normal react app
+1). Create folder and give the project name.
+2). Open with vs code
+3). Open the terminal and follow the steps  
+4). npm create vite@latest
+5). y
+6). react
+7). JavaScript 
+8). npm install
+9). npm run dev
+10). Open the given link
+
+
+           using tailWind
+1). Create folder and give the project name.
+2). Open with vs code
+3). Open the terminal and follow the steps  
+4). npm create vite@latest
+5). react
+6). JavaScript 
+7). npm install tailwindcss @tailwindcss/vite
+8). vite.config.js = import tailwindcss from '@tailwindcss/vite'
+9). index.css = @import "tailwindcss";
+10). terminal = npm run dev
+11). index.html (above title)=  <link href="/src/styles.css" rel="stylesheet">
+
+*  index.js is the entry point
+* javascript must be inside curly braces{}
+* tags must be close </> like this
+*textcomponent must be first letter capital
+e.g. 1). not like this 
+
+            import './App.css'
+
+            function App() {
+            const username = "Jay";
+            return (
+    
+            <h1>
+                 {username}
+               <TextComponent></TextComponent>
+            </h1>
+           );
+           }
+
+            function TextComponent(){
+            return <h2>i am test component</h2>;
+           }
+          export default App
+
+
+  2).this is coreect given below
+
+      import './App.css'
+
+      function App() {
+        return (
+      <div>
+           <h1>
+              <TextComponent></TextComponent>
+           </h1>
+           <h2>Jay</h2>
+        </div>
+      );
+     }
+
+        function TextComponent(){
+        return <h2>i am test component</h2>;
+      }
+      export default App
